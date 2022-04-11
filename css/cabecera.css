@@ -1,0 +1,40 @@
+.cabecera{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    width: 80%;
+    height: 115px;  
+    margin: 10px 10%;
+}
+
+.cabecera__logo{
+    display:flex;
+    width: 15%;
+}
+
+.cabecera__boton{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.cabecera__boton button{
+    padding: 16px;
+    background: #ffffff;
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    color:#2A7AE4;
+}
+
+@media (max-width:360px){
+    .cabecera{
+        justify-content: space-between;
+        height: 50px;
+    }
+
+
+
+}
+

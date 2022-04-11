@@ -1,0 +1,29 @@
+.seccion-titulo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.seccion-titulo h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.seccion-titulo a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.seccion-titulo img{
+    margin-left: 5px;
+    color: #2A7AE4;
+}

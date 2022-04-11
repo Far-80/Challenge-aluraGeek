@@ -1,0 +1,10 @@
+.banner{
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner__elementos{
+    position: absolute;
+    height: 220px;
+    left: 10%;
+}

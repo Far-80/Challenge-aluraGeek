@@ -1,0 +1,34 @@
+.seccion-articulos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.articulo h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    margin: .5rem 0rem;
+}
+
+.articulo p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-bottom: .5rem;
+}
+
+.articulo a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #2A7AE4;
+}

@@ -1,0 +1,29 @@
+.buscar{
+    position: relative;
+    width: 40%;
+}
+
+.buscar__input{
+    width: 100%;
+    height: 40px;
+   /* left: calc(50% - 393px/2 + 104px);*/
+    top: 5px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    border-style: none;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+.buscar__imagen{
+    position:absolute;    
+    right: 1px;
+    bottom: 12px;
+    z-index: 100;
+}
+
+@media (max-width:360px){
+    .buscar__input{
+        display:none;
+    }
+}
