@@ -7,9 +7,9 @@
 .sobre-empresa{
     display: flex;
     background: #EAF2FD;
-    width: 100%;
-    height: 300px;
-    padding: 10% 10%;
+    width: 80%;
+    height: 280px;
+    padding: 5% 10%;
 }
 
 .sobre-empresa__logo{
@@ -40,9 +40,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
-    flex-grow: 2;
     height: 100%;
-    left: 10%;
 }
 
 .sobre-empresa__formulario h3{
@@ -55,23 +53,15 @@
 }
 
 .sobre-empresa__formulario--input{
-    width: 560px;
     height: 56px;
-    left: calc(50% - 560px/2);
-    top: 0px;
     background: #FFFFFF;
     border-radius: 4px;
-    margin: 8px 0px;
 }
 
 .sobre-empresa__formulario--textarea{
-    width: 560px;
     height: 82px;
-    left: calc(50% - 560px/2);
-    top: 0px;
     background: #FFFFFF;
     border-radius: 4px;
-    margin: 8px 0px;
 }
 
 .sobre-empresa__formulario--boton{
